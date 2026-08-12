@@ -1,0 +1,25 @@
+{
+  "ultimo_arquivo_base": "//pdc-sp-01/usuarios_pr$/mblima/Documents/Analista/Projeto Prédio Ativo/Base Revalidação Oportunidades em Prédios Ativos 1 - Fabio 05-2026 .xlsx",
+  "pasta_destino_padrao": "//pdc-sp-01/usuarios_pr$/mblima/Documents/Analista/Tudo de Planilhas/Planilhas Enviadas/UFs Predio Ativo",
+  "pasta_controle": "",
+  "quantidade_padrao": 400,
+  "coluna_chave": "",
+  "lista_status": [
+    "Sem contato/Não atende",
+    "Retorno",
+    "Sem demanda",
+    "Lead",
+    "Nº não existe/Interlix",
+    "Sem abertura",
+    "Lead + Reunião",
+    "Já cliente",
+    "Oportunidade aberta",
+    "Sem viabilidade",
+    "GOV",
+    "Contrato mais 6 meses",
+    "Empresa baixada",
+    "Contato por email",
+    "Sem Interesse",
+    "Whatsapp"
+  ]
+}

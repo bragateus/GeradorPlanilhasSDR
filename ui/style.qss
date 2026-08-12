@@ -1,0 +1,165 @@
+/* Estilo visual da aplicação — mexa livremente aqui sem tocar em nenhum
+   arquivo de lógica (core/*.py). Trocar de "tema" é só trocar este arquivo. */
+
+QWidget {
+    background-color: #f4f6f9;
+    color: #1f2933;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow {
+    background-color: #f4f6f9;
+}
+
+#tituloApp {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    padding-bottom: 4px;
+}
+
+#subtituloApp {
+    color: #6b7280;
+    padding-bottom: 8px;
+}
+
+QGroupBox {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin-top: 14px;
+    padding: 14px;
+    font-weight: 600;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 6px;
+    color: #374151;
+}
+
+QLineEdit, QSpinBox {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 6px 8px;
+    selection-background-color: #6366f1;
+}
+
+QLineEdit:focus, QSpinBox:focus {
+    border: 1px solid #6366f1;
+}
+
+QPushButton {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 8px 14px;
+}
+
+QPushButton:hover {
+    background-color: #eef2ff;
+    border: 1px solid #6366f1;
+}
+
+QPushButton:disabled {
+    color: #9ca3af;
+    background-color: #f3f4f6;
+}
+
+#botaoPrimario {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+#botaoPrimario:hover {
+    background-color: #4338ca;
+}
+
+#botaoPrimario:disabled {
+    background-color: #c7d2fe;
+    color: #eef2ff;
+}
+
+QLabel#labelStatusOk {
+    color: #16a34a;
+}
+
+QLabel#labelStatusPendente {
+    color: #9ca3af;
+}
+
+QPlainTextEdit, QTextEdit {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    border-radius: 8px;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 12px;
+    padding: 8px;
+}
+
+QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    gridline-color: #e5e7eb;
+}
+
+QHeaderView::section {
+    background-color: #f9fafb;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+}
+
+QProgressBar {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+QProgressBar::chunk {
+    background-color: #6366f1;
+    border-radius: 6px;
+}
+
+#rodapeTexto {
+    color: #9ca3af;
+    font-size: 11px;
+}
+
+#marcaAutor {
+    color: #d1d5db;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+#marcaAutor:hover {
+    color: #9ca3af;
+}
+
+#sobreAutor {
+    color: #374151;
+    font-size: 13px;
+}
+
+#sobreAutor a {
+    color: #4f46e5;
+    text-decoration: none;
+}
+
+#sobreAutor a:hover {
+    text-decoration: underline;
+}
+
+#sobreStamp {
+    color: #d1d5db;
+    font-size: 10px;
+    padding-top: 6px;
+}
